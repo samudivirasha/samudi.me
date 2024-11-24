@@ -586,6 +586,10 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero img {
+    object-position: 75% center; /* Adjust to show slightly left of the right side */
+  }
+
   .hero h2 {
     font-size: 32px;
   }
